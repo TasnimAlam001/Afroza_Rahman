@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import BIRDS from 'vanta/src/vanta.birds'
 import './App.css'
+import Main from './pages/Main/Main'
 
 function App() {
   
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <div className="app">
-      <div className="vanta" id="vanta"> </div>
+      <div className="vanta" id="vanta"> <Main/></div>
     </div>
   )
 }
