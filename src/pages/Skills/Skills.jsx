@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <div className="flex  flex-col lg:flex-row justify-center items-center lg:items-start p-16 pt-28 ">
-      <div className="w-1/3 flex justify-center h-[430px] rounded-lg object-cover shadow-lg opacity-75 bg-gradient-to-r from-[#1d1d20] to-[#1e1d53]">
+      <div className="w-1/3 flex justify-center h-[430px] rounded-lg object-cover shadow-lg opacity-75 bg-[#1e1d53]">
         <div className="w-full z-10 grid grid-cols-3 gap-6 p-5">
           <img src="html.png" alt="HTML Logo" className="w-19 h-16" />
           <img src="css.JPG" alt="CSS Logo" className="w-19 h-16" />
